@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start-logon</title>
+</head>
+<style>
+    body {
+        font-family:Arial, Helvetica, sans-serif;
+        background-image: url(/netflex.jpeg);
+        background-size: auto;
+        background-position: center;
+        background-repeat: repeat;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        padding: 20px;
+        width: 200px;
+        background-color: transparent;
+        border: 1px solid burlywood;
+        border-radius: 15px;
+    }
+
+    .log {
+        color: darkcyan;
+        text-align: center;
+        margin-bottom: 8%;
+    }
+
+    label {
+        color: #fff;
+    }
+    input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 190px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+    input:hover {
+        border-color: brown;
+    }
+
+    button {
+        margin-top: 5px;
+        width: 199px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: cornflowerblue;
+        color: white;
+    }
+
+    button:hover {
+        background-color: blue;
+    }
+
+    img {
+        padding-left: 50%;
+        margin-left: -30px;
+        }
+
+        .checkbox {
+            display: flex;
+            flex-direction: row;
+            width: 30px;
+            gap: 4px;
+            color: #fff;
+        }
+</style>
+<body>
+    <div class="card">
+        <img src="/netflex.jpeg" alt="logo" width="50" height="25">
+        <h2 class="log">Login</h2>
+        <form action="">
+            <label for="Name">Name:</label>
+            <input type="name" id="" placeholder="Name">
+            <label for="Password">Password:</label>
+            <input type="password" id="" placeholder="Password">
+            <div class="checkbox">
+                <input type="checkbox" name="checkbox" id="" class="check">
+                <p>Remember</p>
+            </div>
+            <button>Login</button>
+        </form>
+    </div>
+</body>
+</html>
